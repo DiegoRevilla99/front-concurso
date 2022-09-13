@@ -1,0 +1,12 @@
+.cardCustom {
+    cursor: pointer;
+    box-shadow: 3px 3px #E8F1F2;
+    height: 26rem;
+    transition: all 400ms ease;
+}
+
+.cardCustom:hover {
+    box-shadow: 6px 6px #ced5d6;
+    /* box-shadow: 6px 6px #ff8c00; */
+    transform: translateY(-12%);
+}

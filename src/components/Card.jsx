@@ -1,15 +1,19 @@
 import React from "react";
+import "../estilos/card.css";
 
-export const Card = () => {
+export const Card = ({ nombre, url, description, donador }) => {
 	return (
-		<div class="card" style={{ width: 20 + "rem" }}>
-			<img src="../../public/imgs/5120541862.webp" class="card-img-top" alt="..." />
-			<div class="card-body">
-				<h5 class="card-title">Card title</h5>
-				<p class="card-text">
-					Some quick example text to build on the card title and make up the bulk of the
-					card's content.
-				</p>
+		<div className="col">
+			<div className="card cardCustom" style={{ width: 20 + "rem" }}>
+				<img src={url} className="card-img-top" alt="..." />
+				<div className="card-body">
+					<h5 className="card-title">{nombre}</h5>
+					<p>
+						{" "}
+						<strong>Donador: </strong> {donador}{" "}
+					</p>
+					<p className="card-text">{description}</p>
+				</div>
 			</div>
 		</div>
 	);
