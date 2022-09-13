@@ -4,11 +4,11 @@ import "../estilos/navbar.css";
 export const Navbar = () => {
 	return (
 		<div>
-			<div className="navbarCustom">
+			<div className="navbarCustom pb-2 pt-3">
 				<div className="container ">
 					<div className="row justify-content-center">
-						<div className="col-md-6 text-center mb-5">
-							<h2 className="heading-section">DAKOTA</h2>
+						<div className="col-md-6 text-center mb-2">
+							<h2 className="heading-section">¿Vienes por bienes?</h2>
 						</div>
 					</div>
 				</div>
@@ -18,7 +18,7 @@ export const Navbar = () => {
 							<div className="row">
 								<div className="col-md-6 text-center">
 									<h4 className="navbar-brand" href="index.html">
-										Compartiendo los bienes
+										Dakota
 									</h4>
 								</div>
 								<div className="col-md-6 d-md-flex justify-content-end mb-md-0 mb-3">
