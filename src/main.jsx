@@ -19,11 +19,13 @@ import { BrowserRouter } from "react-router-dom";
 // import { MainApp } from "./09-useContext/MainApp";
 
 import "./index.css";
+import { PrincipalPage } from "./pages/PrincipalPage";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
 	<BrowserRouter>
 		{/* // <React.StrictMode> */}
 		{/* <MainApp /> */}
+		<PrincipalPage />
 		{/* // </React.StrictMode> */}
 	</BrowserRouter>
 );
