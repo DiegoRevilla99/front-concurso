@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import "../estilos/navbar.css";
 
 export const Navbar = () => {
@@ -113,6 +114,18 @@ export const Navbar = () => {
 								</a>
 							</li>
 						</ul>
+					</div>
+					<div>
+						<Link
+							className="text-white"
+							style={{ "text-decoration": "none" }}
+							to={`/home/`}
+						>
+							Ingresar
+						</Link>
+						{/* <Link>
+							<h5 className="text-white">Ingresar</h5>
+						</Link> */}
 					</div>
 				</div>
 			</nav>

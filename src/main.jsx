@@ -1,6 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import { BrowserRouter } from "react-router-dom";
+import { HooksApp } from "./HooksApp";
 
 // import { HooksApp } from './HooksApp';
 // import { CounterApp } from './01-useState/CounterApp';
@@ -25,7 +26,7 @@ ReactDOM.createRoot(document.getElementById("root")).render(
 	<BrowserRouter>
 		{/* // <React.StrictMode> */}
 		{/* <MainApp /> */}
-		<PrincipalPage />
+		<HooksApp />
 		{/* // </React.StrictMode> */}
 	</BrowserRouter>
 );

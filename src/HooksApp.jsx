@@ -1,6 +1,9 @@
+import { AppRouter } from "./router/AppRouter";
 
 export const HooksApp = () => {
-  return (
-    <h1>HooksApp</h1>
-  )
-}
+	return (
+		<div>
+			<AppRouter />
+		</div>
+	);
+};
