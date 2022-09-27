@@ -19,9 +19,6 @@ import { HooksApp } from "./HooksApp";
 // import { TodoApp } from './08-useReducer/TodoApp';
 // import { MainApp } from "./09-useContext/MainApp";
 
-import "./index.css";
-import { PrincipalPage } from "./pages/PrincipalPage";
-
 ReactDOM.createRoot(document.getElementById("root")).render(
 	<BrowserRouter>
 		{/* // <React.StrictMode> */}
